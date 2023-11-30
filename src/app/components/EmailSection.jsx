@@ -30,11 +30,6 @@ import Image from "next/image";
         </div>
       </div>
       <div>
-        {emailSubmitted ? (
-          <p className="text-green-500 text-sm mt-2">
-            Email sent successfully!
-          </p>
-        ) : (
           <form className="flex flex-col">
             <div className="mb-6">
               <label
